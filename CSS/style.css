@@ -1,0 +1,274 @@
+
+
+ 
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.Orang-color {
+    color: orange;
+}
+
+.btn {
+    border-radius: 5px;
+    background: orange;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.header {
+    background-color: #f8e7da;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-size: 700px, 97px;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner img {
+    width: 500px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-content h3 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.about {
+    background-color: #f8e7da;
+    margin: 120px 0px;
+    padding: 120px 100px;
+    border-radius: 10px;
+   
+}
+
+.section-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+    font-style: unset;
+}
+
+.about p {
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.about-info h4 {
+    font-size: 26px;
+    text-align: center;
+   
+}
+
+.what-do {
+    background-color: rgb(192, 168, 137);
+    border-radius: 10px;
+}
+
+.what-do #hhhhh {
+    padding: 130px 0 0 0;
+}
+
+.what-do .ppppp {
+    padding: 30px 140px;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skill-container {
+    display: flex;
+    padding: 0 0 20px 0;
+}   
+
+.box {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 13px;
+    margin: 20px;
+    box-shadow: 4px 4px 8px 6px rgb(212, 182, 143);
+}
+
+.summary {
+    background-color:#f8e7da ;
+    padding: 100px 30px 30px 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+hr {
+    margin: 30px;
+}
+
+.bt {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pera {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.h3333 {
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+}
+
+.h2222{
+    font-size: 25px;
+    font-weight: 700;
+    color: black; 
+}
+
+.heading {
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 25px; 
+}
+
+.footer-section {
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.colum-section {
+    padding: 30px;
+    align-items: center;
+    width: 50%;
+}
+
+.colum-section h3 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+
+}
+
+.colum-section p {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+
+}
+
+.icon {
+   
+    text-align: center;
+}
+
+.icon img {
+    margin-right: 30px;
+
+}
+
+.icon img:hover {
+    border: 3px solid blue;
+    border-radius: 50%;
+    background: black;
+}
+
+form {
+    padding: 0px 50px;
+}
+
+form input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
